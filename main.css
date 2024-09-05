@@ -1,0 +1,59 @@
+body{
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: rgb(73, 85, 255);
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #f1f1f1;
+    color: rgb(0, 0, 0);
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-link.active:hover{
+    color: #000000;
+    background-color: rgb(73, 85, 255);
+
+}
+
+.section-title{ 
+        font-family: "Sevillana", cursive;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+
+
+    #nossas-belezas, 
+    #pontos-turisticos{
+        background-color: rgba(102, 222, 243, 0.671);
+    }
+
+    .nav-pontos-turisticos .nav-link.active,
+#fale-conosco button{
+    background-color: rgb(73, 85, 255);
+    color: #000000;
+}
+
+.social-links {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start; 
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+    margin: 0;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+
